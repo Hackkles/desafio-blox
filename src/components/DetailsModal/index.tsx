@@ -7,7 +7,6 @@ import { Bloxe } from '../Dashboard';
 
 
 import {
-  Container,
   Header,
   Modalities,
   ModalityContainer,
@@ -39,16 +38,6 @@ export function DetailsModal({
       overlayClassName="react-modal-overlay"
       className="react-modal-content"
     >
-      <Container>
-      <button
-        type="button"
-        onClick={OnRequestClose}
-        className="react-modal-close"
-      >
-       <img src={closeImg} width={20}/>
-      </button>
-      </Container>
-
       <Header color={bloxeDetail?.knowledge_area.color1}>
         <h1>{bloxeDetail?.title}</h1>
       </Header>

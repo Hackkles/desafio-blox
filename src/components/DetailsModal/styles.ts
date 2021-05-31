@@ -3,18 +3,6 @@ import styled, { css } from 'styled-components';
 interface BackgroundColorProps {
   color?: string;
 }
-
-export const Container = styled.div`
-.react-modal-close{
-  position: absolute;
-  right: 1.5rem;
-  top: 1.5rem;
-  border: 0;
-  background: transparent;
-}
-
-`;
-
 export const Header = styled.header<BackgroundColorProps>`
   display: flex;
   align-items: center;
